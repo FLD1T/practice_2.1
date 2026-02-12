@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Олег",
+    "author": "Калыван",
+    "year": "1488",
+    "available": true
+  },
+  {
+    "id": 2,
+    "title": "ололоев",
+    "author": "троллфасе",
+    "year": "1092",
+    "available": true
+  },
+  {
+    "id": 3,
+    "title": "пупа",
+    "author": "лупа",
+    "year": "1032",
+    "available": false
+  },
+  {
+    "id": 4,
+    "title": "книга",
+    "author": "кига",
+    "year": "1845",
+    "available": false
+  },
+  {
+    "id": 5,
+    "title": "дод",
+    "author": "ч",
+    "year": "2026",
+    "available": false
+  },
+  {
+    "id": 6,
+    "title": "привет",
+    "author": "артур",
+    "year": "2007",
+    "available": true
+  }
+]
