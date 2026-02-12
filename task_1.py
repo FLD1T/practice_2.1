@@ -13,11 +13,11 @@ def base_analyze_text():
         "Через неделю заходит опять эта улитка и спрашивает:"
     ]
 
-    file = open("text.txt","w+", encoding="utf-8")
+    file = open("resource/text.txt", "w+", encoding="utf-8")
     for line in lines:
         file.write(f"{line}\n")
 
-    with open("text.txt","r", encoding="utf-8") as file:
+    with open("resource/text.txt", "r", encoding="utf-8") as file:
         content = file.readlines()
 
     for line in content:
@@ -32,4 +32,6 @@ def base_analyze_text():
     print(f"Колличество строк в файле: {line_count}.")
     print(f"Колличество слов в файле: {words_count}.")
     print(f"Самая длинная строка: {number_of_longest_line}) {longest_line}.")
-base_analyze_text()
+
+if __name__ == "__main__":
+    base_analyze_text()

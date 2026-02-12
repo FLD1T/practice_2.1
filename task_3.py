@@ -81,4 +81,5 @@ def main(filename):
         case "0":
             quit()
 
-main(FILENAME)
+if __name__ == "__main__":
+    main(FILENAME)

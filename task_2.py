@@ -32,4 +32,5 @@ def filter_data():
     best_score = students_dict[best_student]
     print(f"Лучший студент: {best_student}: {best_score}")
 
-filter_data()
+if __name__ == "__main__":
+    filter_data()
